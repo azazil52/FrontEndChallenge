@@ -1,27 +1,17 @@
 # FrontEndChallenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Overview:  Use data from The Elephants API to display information about different elephants that are listed on Wikipedia.
+Purpose: The purpose of this exercise is to confirm that you have a knowledge of working with APIs and that you are able to consume their responses on the frontend of a web application.
+Technologies: The frontend should be written in JavaScript.  If helpful, please feel free to use your favorite Framework and any other JavaScript packages that you would normally depend on.
+Details:
+•	API Endpoint:  https://elephant-api.herokuapp.com/elephants
+a.	NOTE:  this API won’t have CORS configured for this test app, so you may need to forward the request through this cors-anwyhere API:  https://cors-anywhere.herokuapp.com/https://elephant-api.herokuapp.com/elephants
+•	API Method: GET
+•	API Arguments: none
+•	Output Format: JSON
+Problem Description:
+1.	Retrieve data from the API endpoint
+2.	Store the response in a/some local variable(s)
+3.	Display the total number of elephants in the results set
+4.	Display the total number of male elephants in the results set
+5.	Display the total number of female elephants in the results set
